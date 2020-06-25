@@ -1,0 +1,23 @@
+.swipe-controls {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+
+    .swipe-controls-item {
+        display: flex;
+        justify-content: center;
+
+        .swipe-button {
+            height: 50px;
+            --border-radius: 50%;
+        }
+    }
+}
+
+.card {
+    width: 100%;
+    @media screen and (max-width: 768px) {
+        width: auto;
+    }
+}

@@ -1,5 +1,7 @@
 {
   "name": "ionic-dating-app",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

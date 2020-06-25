@@ -1,0 +1,9 @@
+<ion-content class="ion-padding">
+    <app-sign-in 
+        *ngIf="isLogin"
+        (authenticate)="authenticate($event)"
+        ></app-sign-in>
+    <app-sign-up 
+        *ngIf="!isLogin"
+        (authenticate)="authenticate($event)"></app-sign-up>
+</ion-content>
